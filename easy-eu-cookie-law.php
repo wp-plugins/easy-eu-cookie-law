@@ -5,7 +5,7 @@
     * Plugin URI: http://www.reaccionestudio.com/wordpress-cookie-law/
     * Description: Plugin for the new European cookie law.
     * Version: 1.0
-    * Author: Alberto Vian Hernández
+    * Author: Reacción Estudio - Desarrollo de aplicaciones web
     * Author URI: http://www.reaccionestudio.com/
     * License: GPL2
     */
