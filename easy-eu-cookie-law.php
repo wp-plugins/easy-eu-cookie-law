@@ -4,7 +4,7 @@
     * Plugin Name: Easy EU Cookie law
     * Plugin URI: http://www.reaccionestudio.com/wordpress-cookie-law/
     * Description: Plugin for the new European cookie law.
-    * Version: 1.0
+    * Version: 1.1
     * Author: Reacción Estudio - Desarrollo de aplicaciones web
     * Author URI: http://www.reaccionestudio.com/
     * License: GPL2
