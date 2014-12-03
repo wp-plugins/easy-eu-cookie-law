@@ -24,6 +24,16 @@ Not database is required.
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Configure your settings in the 'Cookie law' menu.
 
+== Frequently Asked Questions ==
+
+= Does it automatically disable cookie usage in WordPress? =
+
+No, only alerts the user the use of cookies on the website.
+
+== Screenshots ==
+1. Cookie law alert box
+2. Cookie law configuration panel
+
 == Changelog ==
 
 = 1.2.1 =
@@ -36,18 +46,10 @@ Not database is required.
 = 1.0 =
 * First Cookie Law plugin release.
 
-== Frequently Asked Questions ==
-
-= Does it automatically disable cookie usage in WordPress? =
-
-No, only alerts the user the use of cookies on the website.
-
 == Upgrade Notice ==
+
+= 1.2.1 =
+Plugin updated for Wordpress 4.0.1 version compatibility.
 
 = 1.0 =
 First stable version for Cookie law plugin.
-
-== Screenshots ==
-
-1. Cookie law alert box.
-2. Cookie law configuration panel.
