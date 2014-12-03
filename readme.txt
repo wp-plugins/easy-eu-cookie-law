@@ -50,3 +50,4 @@ First stable version for Cookie law plugin.
 == Screenshots ==
 
 1. Cookie law alert box.
+2. Cookie law configuration panel.
