@@ -42,6 +42,10 @@ div.wrap_cookies a:hover { text-decoration:underline; }
     color:#FFF;
 }
 .font-white{ color:#FFF; }
+.siteTitle{
+	font-size:18px;
+	font-weight:bold;
+}
 
 /* COLORES */
 .gris { background-color:#444444; }

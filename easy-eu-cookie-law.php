@@ -2,11 +2,11 @@
 
     /**
     * Plugin Name: Easy EU Cookie law
-    * Plugin URI: http://www.reaccionestudio.com/wordpress-cookie-law/
+    * Plugin URI: http://www.womp.es/
     * Description: Plugin for the new European cookie law.
-    * Version: 1.1
-    * Author: Reacción Estudio - Desarrollo de aplicaciones web
-    * Author URI: http://www.reaccionestudio.com/
+    * Version: 1.2
+    * Author: Womp.es
+    * Author URI: http://www.womp.es/
     * License: GPL2
     */
 
@@ -22,8 +22,8 @@
         {            
             echo '<div class="wrap_cookies font-white '.color.'">
                     <div class="message">
-                        <h4>'.$lang["cookie_title"].'</h4>
-                        <p>'.$lang["cookie_text"].'<a href="'.more_info_url.'" class="under" title="'.ucfirst($lang["polit_cook"]).'">'.$lang["polit_cook"].'</a>. &nbsp;<a href="#" id="cerrar_msj"><span class="cerrar_msj">[ '.$lang["accept"].' ]</span></a></p>
+                        <span class="siteTitle">'.$lang["cookie_title"].'</span>
+                        <p>'.$lang["cookie_text"].'<a href="'.more_info_url.'" class="under" title="'.ucfirst($lang["polit_cook"]).'">'.$lang["polit_cook"].'</a>. &nbsp;[ <a href="#" id="cerrar_msj" title="'.$lang["accept"].'"><span class="cerrar_msj">'.$lang["accept"].'</span></a> ]</p>
                     </div>
                 </div>';
 
@@ -93,17 +93,18 @@
             $cookie->enviar_cookie();
         }
     }
-    
+	
     function cargar_archivos()
     {
         wp_enqueue_style( 'style_cookie_law', plugins_url( 'css/style.min.css' , __FILE__ ), false );
         wp_enqueue_script( 'cookie_law_js', plugins_url( 'js/cookie_law.min.js' , __FILE__ ), array( 'jquery' ) );
-        echo '<script>var ocultar_msj_url = "'.admin_url('admin-ajax.php').'";</script>';
+		echo '<script>var ocultar_msj_url = "'.admin_url('admin-ajax.php').'";</script>';
     }
     
     add_action( 'init', 'set_cookie');
     add_action('wp_enqueue_scripts', 'cargar_archivos');
     add_action('admin_menu', 'panel_admin');
+	add_action( 'get_footer', 'run_cookie_law');
     
     //ajax
     add_action( 'wp_ajax_nopriv_ocultar_msj', 'ocultar_msj' );  
