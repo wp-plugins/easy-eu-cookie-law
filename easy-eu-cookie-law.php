@@ -4,7 +4,7 @@
     * Plugin Name: Easy EU Cookie law
     * Plugin URI: http://www.womp.es/
     * Description: Plugin for the new European cookie law.
-    * Version: 1.2
+    * Version: 1.2.1
     * Author: Womp.es
     * Author URI: http://www.womp.es/
     * License: GPL2

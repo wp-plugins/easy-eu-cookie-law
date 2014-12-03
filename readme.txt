@@ -4,7 +4,7 @@ Donate link:
 Tags: cookie, cookies, privacy, european, law, accept
 Requires at least: 3.8
 Tested up to: 4.0.1
-Stable tag: 1.2
+Stable tag: 1.2.1
 License: GPL2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,6 +25,9 @@ Not database is required.
 3. Configure your settings in the 'Cookie law' menu.
 
 == Changelog ==
+
+= 1.2.1 =
+* Default cookie law terms link modified.
 
 = 1.2 =
 * Plugin updated for Wordpress 4.0.1 version compatibility.
