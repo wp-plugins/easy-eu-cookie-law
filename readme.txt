@@ -4,7 +4,7 @@ Donate link:
 Tags: cookie, cookies, privacy, european, law, accept
 Requires at least: 3.8
 Tested up to: 4.0.1
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 License: GPL2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,6 +35,9 @@ No, only alerts the user the use of cookies on the website.
 2. Cookie law configuration panel
 
 == Changelog ==
+
+= 1.2.2 =
+* Fixed problem with some sites name when creating the check cookie.
 
 = 1.2.1 =
 * Default cookie law terms link modified.

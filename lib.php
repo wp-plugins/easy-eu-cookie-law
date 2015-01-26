@@ -8,14 +8,11 @@
 
      class Cookie_law
      {
-         
-         public $site_name;
          public $cookie_name;
          
          function __construct() 
          {
-             $this->site_name = blog_name;
-             $this->cookie_name = $this->site_name."_cookie_law";
+             $this->cookie_name = "easy_eu_cookie_law";
          }
          
          /*
